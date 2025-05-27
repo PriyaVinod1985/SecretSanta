@@ -49,12 +49,12 @@ class SecretSantaGUI:
         ttk.Label(self.main_frame, text="Secret Santa Generator", style="Header.TLabel", image=self.img, compound="left").pack(pady=10)
         
 
-        ttk.Button(self.main_frame, text="Load Participants CSV", command=self.load_csv).pack(pady=5)
+        ttk.Button(self.main_frame, text="Load Participants", command=self.load_csv).pack(pady=5)
         ttk.Button(self.main_frame, text="Load Last Year's Pairs", command=self.load_last_year).pack(pady=5)
         
         self.generate_button = ttk.Button(self.main_frame, text="Generate Pairs",command=self.generate_pairs, state=tk.DISABLED)
         self.generate_button.pack(pady=5)
-        self.save_button = ttk.Button(self.main_frame, text="Save Pairs to CSV",command=self.save_csv,  state=tk.DISABLED)
+        self.save_button = ttk.Button(self.main_frame, text="Save Pairs",command=self.save_csv,  state=tk.DISABLED)
         self.save_button.pack(pady=5)
 
         self.tree = ttk.Treeview(self.main_frame, columns=("giver", "receiver"), show="headings")
