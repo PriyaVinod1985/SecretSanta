@@ -5,14 +5,26 @@ This is a user-friendly desktop application that lets you generate employee and 
 ![Icon](Assets/Images/Requirements_icon.png) **Requirements**
 
 The application uses two input files: 
+
   a. Current year employee list given as a.csv file  
   b. Previous year employee and child list given as a.csv file 
   ** Please ensure that both the files are in .csv formats 
 
 The application also uses two image files: 
+
   a. Label_img – An image used in the application heading.  
   b. Secret_santa icon – This is an application logo.  
-  ** Please ensure that the image is in the same folder as the application  
+  ** Please ensure that the image is in the same folder as the application 
+  
+![Icon](Assets/Images/Constraints_icon.png) **Features**
+
+1. Randomized assignment - Each employee is randomly paired with another employee.
+   
+2. Self-assignments are avoided.
+
+3. Last year's pairings are compared to avoid same assignments in the current year.
+
+4. Appropriate error handling has been done so users are notified why the application has failed.
 
 ![Icon](Assets/Images/File_formats_icon.png) **File Formats**
 
