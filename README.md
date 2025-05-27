@@ -66,17 +66,17 @@ The application files are available in the main branch of the github repository 
 
 2. A message box with number of participants loaded appears as shown below upon successful loading.
 
-  ![Icon](Assets/Images/App_SS_2.png)
+   ![Icon](Assets/Images/App_SS_2.png)
   
 3. If there is any error in loading, the equivalent error message is shown in the message box.
 
 4. Load the last year santa-child pairings by clicking on "Load Last Year's Pairs". A success message appears upon successful loading.
 
-  ![Icon](Assets/Images/App_SS_3.png) 
+   ![Icon](Assets/Images/App_SS_3.png) 
    
 5. For generating new pairs, click on "Generate Pairs".
 
-  ![Icon](Assets/Images/App_SS_4.png) 
+   ![Icon](Assets/Images/App_SS_4.png) 
 
 6. For writing the pairs into a new .csv file, click on "Save Pairs to CSV". You will be prompted to choose the output folder and file name. A success message is displayed upon successful upload.
 
