@@ -45,5 +45,31 @@ To run the application, follow steps below:
 The application has been developed using Python3.13 with pip and auto-py-to-exe.  
 
 The application files are available in the main branch of the github repository along with the testing files and images used. 
- 
 
+![Icon](Assets/Images/Screenshot.png) **Application Screenshots** 
+
+1. Load the current year's employee list by clicking on "Load Participants CSV".
+
+   ![Icon](Assets/Images/App_SS_1.png)
+
+2. A message box with number of participants loaded appears as shown below upon successful loading.
+
+  ![Icon](Assets/Images/App_SS_2.png)
+  
+3. If there is any error in loading, the equivalent error message is shown in the message box.
+
+4. Load the last year santa-child pairings by clicking on "Load Last Year's Pairs". A success message appears upon successful loading.
+
+  ![Icon](Assets/Images/App_SS_3.png) 
+   
+5. For generating new pairs, click on "Generate Pairs".
+
+  ![Icon](Assets/Images/App_SS_4.png) 
+
+6. For writing the pairs into a new .csv file, click on "Save Pairs to CSV". You will be prompted to choose the output folder and file name. A success message is displayed upon successful upload.
+
+   ![Icon](Assets/Images/App_SS_5.png)
+
+![Icon](Assets/Images/Acknowledgements_icon.png) **Acknowledgements**
+
+Image attributes - https://www.freepik.com/ 
