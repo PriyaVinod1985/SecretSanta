@@ -42,16 +42,55 @@ Hamish Murray,hamish.murray@acme.com,Benjamin Collins,benjamin.collins@acme.com
 
 ![Icon](Assets/Images/Installation_icon.png) **Installation** 
 
-To run the application, follow steps below: 
+To run the application as **.exe from github** follow the steps given below: 
 
-1.Download the .exe file from github 
+1.Click on the release link. Download the "main.zip" file from github.
 
-2.Before running the application, please ensure that the image files are in the same folder as the .exe 
+  ![Icon](Assets/Images/Github_Screenshots/Step1.png)
 
-3.Run the application by double-clicking on the exe.
+2. Goto downloads and extract the main.zip file by right-clicking and choosing "Extract to main\".
+
+  ![Icon](Assets/Images/Github_Screenshots/Step2.png)
+
+3. Once extracted, double-click on the main folder. Contents inside the main folder are as displayed below:
+
+  ![Icon](Assets/Images/Github_Screenshots/Step3.png)
+
+4. From the above contents, double-click on "main.exe" that has the santa cap logo. If there is a **Windows Security Prompt**, click **“More info”** → **“Run anyway”**.
+ 
+  ![Icon](Assets/Images/Github_Screenshots/Step4a.png)
+  ![Icon](Assets/Images/Github_Screenshots/Step4b.png)
    
-4.If there is a **Windows Security Prompt**, click **“More info”** → **“Run anyway”**. 
+5. Once done, the application opens as shown below:
 
+  ![Icon](Assets/Images/Github_Screenshots/Step5.png)
+  
+To run the **application from terminal** follow the steps given below: 
+
+1. Open the github link and download "Source code.zip". It will download with the name "SecretSanta-1.0".
+   
+  ![Icon](Assets/Images/Terminal_Screenshots/Step1.png)
+
+2. Once downloaded, extract the Source code by right-clicking on "SecretSanta-1.0" and choosing "Extract to SecretSanta-1.0".
+ 
+  ![Icon](Assets/Images/Terminal_Screenshots/Step2.png)
+
+3. Once extracted, open command prompt with **administrator** privileges.
+
+   ![Icon](Assets/Images/Terminal_Screenshots/Step3.png)
+
+4. Change the directory to the downloads folder or folder where the source code is extracted.
+
+   ![Icon](Assets/Images/Terminal_Screenshots/Step4.png)
+
+5. Run the python command to execute the file "**main.py**".
+
+   ![Icon](Assets/Images/Terminal_Screenshots/Step5.png)
+
+6. This opens the application as shown below.
+
+   ![Icon](Assets/Images/Github_Screenshots/Step5.png)
+  
 ![Icon](Assets/Images/Technology_icon.png) **Technologies Used** 
 
 The application has been developed using Python3.13 with pip and auto-py-to-exe.  
