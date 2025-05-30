@@ -15,7 +15,7 @@ The application also uses two image files:
   a. Label_img – An image used in the application heading.  
   b. Secret_santa icon – This is an application logo.  
   ** Please ensure that the image is in the same folder as the application 
-  
+
 ![Icon](Assets/Images/Constraints_icon.png) **Features**
 
 1. Randomized assignment - Each employee is randomly paired with another employee.
@@ -42,7 +42,7 @@ Hamish Murray,hamish.murray@acme.com,Benjamin Collins,benjamin.collins@acme.com
 
 ![Icon](Assets/Images/Installation_icon.png) **Installation** 
 
-To run the application as **.exe from github** follow the steps given below: 
+To run the application as **.exe from github** on Windows machine follow the steps given below: 
 
 1.Click on the release link. Download the "main.zip" file from github.
 
@@ -83,10 +83,28 @@ To run the **application from terminal** follow the steps given below:
 
    ![Icon](Assets/Images/Terminal_Screenshots/Step4.png)
 
-5. Run the python command to execute the file "**main.py**".
+5. **The command is "py" for the version "Python 3.13.3". For other versions, try using "python" or "python3" in place of "py". Please ensure that pip and tkinter module packages are available with the python 
+   version used.
 
-   **The command is "py" for the version "Python 3.13.3". For other versions, try using "python" or "python3" in place of "py".
+   **Installing tkinter module on Windows**
+   
+   Please ensure Python3 is installed before executing the file. If not installed, please install from https://www.python.org/. This has pip and tkinter packages used in the project as inbuilt files. So no  
+   further installation is required.
 
+   Alternatetively if pip or tkinter module is missing, please uninstall the lower version of Python and re-install python3.
+
+  **Installing tkinter module on Linux**
+
+  Check if pip is installed using **pip3 --version**. If not installed, install using 
+  sudo apt update
+  sudo apt install python3-pip 
+  
+  Check if tkinter module is installed using **python3 -m tkinter**. If not installed, install using,
+  sudo apt update
+  sudo apt install python3-tk
+
+  After the installation checks, run the python command to execute the file "**main.py**".
+  
    ![Icon](Assets/Images/Terminal_Screenshots/Step5.png)
 
 7. This opens the application as shown below.
